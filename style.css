@@ -1,0 +1,330 @@
+@charset "UTF-8";
+body,
+html {
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
+
+#container {
+    background: #fff;
+    height: 600px;
+    width: 300px;
+    z-index: 1;
+}
+
+.banner {
+    opacity: 1;
+    height: 598px;
+    width: 298px;
+    border: 1px solid #000;
+    background: #fff;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.positionAb {
+    position: absolute;
+}
+
+#clickTag {
+    
+    background: url(images/clickTag.png);
+    height: 600px;
+    width: 300px;
+    z-index: 80;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+
+}
+
+#loader-container {
+    display:none;	
+}
+/*////////////////////////////////////////////////*/
+#logo {
+    background-color: #a90d37;
+    width: 63px;
+    height: 0px;
+/*    transform: scaleY(0);*/
+    top: 0px;
+    left: 14px;
+    z-index: 10;
+/*    opacity: 0;*/
+    display: block;
+    text-align: center;
+    transform-origin:  left center;
+}
+
+#logo span {
+    width: 51px;
+    height: 17px;
+    top: 23px;
+    left: 6px;
+    opacity: 1;
+    display: block;
+    background: url(images/bbt_logo_300x250.svg);
+    background-repeat: no-repeat;
+}
+
+#legal {
+    background-color: #edf0f4;
+    cursor: pointer;
+    width: 250px;
+    height: 39px;
+    bottom: 273px;
+    right: 24px;
+    z-index: 40;
+    opacity: 0;
+    -moz-border-radius: 3px 3px 0px 0px;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    -khtml-border-radius: 3px 3px 0px 0px;
+    border-radius: 3px 3px 0px 0px;
+    display: block; 
+    transform-origin: left center;
+
+}
+
+#legal span {
+    width: 194px;
+    height: 23px;
+    bottom: 14px;
+    left: 2px;
+    display: block;
+    background: url(images/legal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+/*////////////////////////////////////////////////*/
+
+
+#cta {
+    background-color: #a90d37;
+    cursor: pointer;
+    width: 115px;
+    height: 0px;
+    bottom: 0px;
+    right: 98px;
+    z-index: 40;
+    -moz-border-radius: 3px 3px 0px 0px;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    -khtml-border-radius: 3px 3px 0px 0px;
+    border-radius: 3px 3px 0px 0px;
+    display: block; 
+    transform-origin: left center;
+
+}
+
+#cta span {
+    width: 78px;
+    height: 10px;
+    bottom: 13px;
+    right: 18px;
+    opacity: 1;
+    display: block;
+    background: url(images/cta_label.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+/*////////////////////////////////////////////////*/
+
+#imageHolder {
+    width: 354px;
+    height: 638px;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    opacity: 1;
+    display: block;
+/*    perspective: 800px;*/
+
+}
+
+#imageHolder #tablet {
+    width: 354px;
+    height: 638px;
+    top: -19px;
+    left: -26px;
+    opacity: 0;
+    display: block;
+    background: url(images/tablet-frontView.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#headlineImageholder {
+    width: 141px;
+    height: 106px;
+    top: 99px;
+    left: 180px;
+    opacity: 1;
+    display: block;
+    overflow: hidden;
+}
+
+#headlineImage {
+    width: 141px;
+    height: 100px;
+    top: -2px;
+    left: 0;
+    display: block;
+    background: url(images/mortgage-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#headline01{
+    overflow: hidden;
+    height: 104px;
+    width: 242px;
+    top: 288px;
+    left: 67px;
+}
+
+#headline02, #headline03,#headline04 {
+    overflow: hidden;
+    height: 118px;
+    width: 253px;
+    top: 283px;
+    left: 56px;
+}
+#mortgage_container {
+    width: 240px;
+    height: 13px;
+    top: 249px;
+    left: 52px;
+    opacity: 1;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#mask {
+    width: 129px;
+    height: 13px;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#mortgage_text {
+    width: 235px;
+    height: 13px;
+    top: 0px;
+    left: -80px;
+    opacity: 1;
+    display: block;
+    background: url(images/mortgage_text.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*////////////////////////////////////////////////*/
+
+#f1_headline_1 {
+    width: 223px;
+    height: 22px;
+    top: 28px;
+    left: 1px;
+    opacity: 0;
+    display: block;
+    background: url(images/f1_headline_1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#f1_headline_2 {
+    width: 127px;
+    height: 22px;
+    top: 55px;
+    left: 2px;
+    opacity: 0;
+    display: block;
+    background: url(images/f1_headline_2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*////////////////////////////////////////////////*/
+
+#f2_headline_1 {
+    width: 250px;
+    height: 20px;
+    top: -28px;
+    left: 1px;
+    opacity: 0;
+    display: block;
+    background: url(images/f2_headline_1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#f2_headline_2 {
+    width: 184px;
+    height: 65px;
+    top: 123px;
+    left: 1px;
+    opacity: 0;
+    display: block;
+    background: url(images/f2_headline_2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/*////////////////////////////////////////////////*/
+
+
+#f3_headline_1 {
+    width: 185px;
+    height: 28px;
+    top: 11px;
+    left: 0px;
+    opacity: 0;
+    display: block;
+    background: url(images/f3_headline_1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#f3_headline_2 {
+    width: 245px;
+    height: 62px;
+    top: 45px;
+    left: 1px;
+    opacity: 0;
+    display: block;
+    background: url(images/f3_headline_2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*////////////////////////////////////////////////*/
+
+
+#f4_headline_1 {
+    width: 131px;
+    height: 20px;
+    top: 15px;
+    left: 0px;
+    opacity: 0;
+    display: block;
+    background: url(images/f4_headline_1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#f4_headline_2 {
+    width: 182px;
+    height: 61px;
+    top: 43px;
+    left: 1px;
+    opacity: 0;
+    display: block;
+    background: url(images/f4_headline_2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
